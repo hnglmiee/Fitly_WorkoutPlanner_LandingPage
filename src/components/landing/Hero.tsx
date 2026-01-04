@@ -55,19 +55,76 @@ const Hero = () => {
             </Button>
           </div>
 
-          {/* Stats */}
-          <div className="grid grid-cols-3 gap-8 mt-16 pt-16 border-t border-border animate-fade-up delay-400">
-            <div className="text-center">
-              <div className="text-3xl md:text-4xl font-bold text-primary mb-2">500K+</div>
-              <div className="text-sm text-muted-foreground">Active Users</div>
-            </div>
-            <div className="text-center">
-              <div className="text-3xl md:text-4xl font-bold text-primary mb-2">1000+</div>
-              <div className="text-sm text-muted-foreground">Workout Plans</div>
-            </div>
-            <div className="text-center">
-              <div className="text-3xl md:text-4xl font-bold text-primary mb-2">50+</div>
-              <div className="text-sm text-muted-foreground">Countries</div>
+          {/* Tech Stack */}
+          <div className="mt-16 pt-16 border-t border-border animate-fade-up delay-400">
+            <h3 className="text-sm font-semibold text-muted-foreground mb-12 uppercase tracking-wider">
+              Built With Modern Tech Stack
+            </h3>
+            <div className="relative overflow-hidden">
+              <div className="flex animate-scroll">
+                {/* First set of logos */}
+                <div className="flex items-center gap-12 px-6">
+                  <div className="flex flex-col items-center gap-3 min-w-[120px]">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" className="w-12 h-12" />
+                    <span className="text-sm text-muted-foreground">React.js</span>
+                  </div>
+                  <div className="flex flex-col items-center gap-3 min-w-[120px]">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" alt="Flutter" className="w-12 h-12" />
+                    <span className="text-sm text-muted-foreground">Flutter</span>
+                  </div>
+                  <div className="flex flex-col items-center gap-3 min-w-[120px]">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" alt="Spring Boot" className="w-12 h-12" />
+                    <span className="text-sm text-muted-foreground">Spring Boot</span>
+                  </div>
+                  <div className="flex flex-col items-center gap-3 min-w-[120px]">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL" className="w-12 h-12" />
+                    <span className="text-sm text-muted-foreground">MySQL</span>
+                  </div>
+                  <div className="flex flex-col items-center gap-3 min-w-[120px]">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker" className="w-12 h-12" />
+                    <span className="text-sm text-muted-foreground">Docker</span>
+                  </div>
+                  <div className="flex flex-col items-center gap-3 min-w-[120px]">
+                    <img src="https://www.svgrepo.com/show/354202/postman-icon.svg" alt="Postman" className="w-12 h-12" />
+                    <span className="text-sm text-muted-foreground">Postman</span>
+                  </div>
+                  <div className="flex flex-col items-center gap-3 min-w-[120px]">
+                    <img src="https://raw.githubusercontent.com/PaddlePaddle/PaddleOCR/release/2.6/doc/PaddleOCR_log.png" alt="PaddleOCR" className="w-12 h-12 object-contain" />
+                    <span className="text-sm text-muted-foreground">PaddleOCR</span>
+                  </div>
+                </div>
+                {/* Duplicate set for seamless loop */}
+                <div className="flex items-center gap-12 px-6">
+                  <div className="flex flex-col items-center gap-3 min-w-[120px]">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" className="w-12 h-12" />
+                    <span className="text-sm text-muted-foreground">React.js</span>
+                  </div>
+                  <div className="flex flex-col items-center gap-3 min-w-[120px]">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" alt="Flutter" className="w-12 h-12" />
+                    <span className="text-sm text-muted-foreground">Flutter</span>
+                  </div>
+                  <div className="flex flex-col items-center gap-3 min-w-[120px]">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" alt="Spring Boot" className="w-12 h-12" />
+                    <span className="text-sm text-muted-foreground">Spring Boot</span>
+                  </div>
+                  <div className="flex flex-col items-center gap-3 min-w-[120px]">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL" className="w-12 h-12" />
+                    <span className="text-sm text-muted-foreground">MySQL</span>
+                  </div>
+                  <div className="flex flex-col items-center gap-3 min-w-[120px]">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker" className="w-12 h-12" />
+                    <span className="text-sm text-muted-foreground">Docker</span>
+                  </div>
+                  <div className="flex flex-col items-center gap-3 min-w-[120px]">
+                    <img src="https://www.svgrepo.com/show/354202/postman-icon.svg" alt="Postman" className="w-12 h-12" />
+                    <span className="text-sm text-muted-foreground">Postman</span>
+                  </div>
+                  <div className="flex flex-col items-center gap-3 min-w-[120px]">
+                    <img src="https://raw.githubusercontent.com/PaddlePaddle/PaddleOCR/release/2.6/doc/PaddleOCR_log.png" alt="PaddleOCR" className="w-12 h-12 object-contain" />
+                    <span className="text-sm text-muted-foreground">PaddleOCR</span>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>

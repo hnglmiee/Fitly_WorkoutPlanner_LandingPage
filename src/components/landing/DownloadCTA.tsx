@@ -81,7 +81,7 @@ const DownloadCTA = () => {
           </div>
 
           {/* Email Signup */}
-          <div className="max-w-md mx-auto">
+          {/* <div className="max-w-md mx-auto">
             <p className="text-sm text-muted-foreground mb-4">
               Or get the download link sent to your email
             </p>
@@ -95,10 +95,10 @@ const DownloadCTA = () => {
                 <ArrowRight className="w-5 h-5" />
               </Button>
             </div>
-          </div>
+          </div> */}
 
           {/* Trust Badges */}
-          <div className="flex items-center justify-center gap-6 mt-12 pt-8 border-t border-border">
+          {/* <div className="flex items-center justify-center gap-6 mt-12 pt-8 border-t border-border">
             <div className="flex items-center gap-2 text-muted-foreground">
               <span className="text-primary font-bold">4.9</span>
               <span>★</span>
@@ -114,7 +114,7 @@ const DownloadCTA = () => {
               <span className="text-primary font-bold">Free</span>
               <span className="text-sm">To Start</span>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
