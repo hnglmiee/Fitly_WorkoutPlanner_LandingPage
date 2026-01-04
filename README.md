@@ -1,73 +1,99 @@
-# Welcome to your Lovable project
+# Fitly Landing Page
 
-## Project info
+Official landing page for Fitly - A comprehensive workout tracking mobile application for Android.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+![React](https://img.shields.io/badge/React-18+-61DAFB?style=flat&logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-5+-3178C6?style=flat&logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3+-06B6D4?style=flat&logo=tailwindcss&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-5+-646CFF?style=flat&logo=vite&logoColor=white)
 
-## How can I edit this code?
 
-There are several ways of editing your application.
+## 📖 About
 
-**Use Lovable**
+Modern, responsive landing page for Fitly built with React, TypeScript, and Tailwind CSS. Showcases app features, provides download links, and converts visitors into users.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+## ✨ Features
 
-Changes made via Lovable will be committed automatically to this repo.
+- **Navbar**: Sticky navigation with smooth scrolling
+- **Hero**: Eye-catching introduction with CTA
+- **Features**: Showcase of key app capabilities
+- **About**: Detailed app description and benefits
+- **App Screenshots**: Gallery of app interface
+- **Download CTA**: Direct APK download section
+- **Footer**: Links, social media, and legal info
+- **Fully Responsive**: Works on all devices
+- **Fast Performance**: Optimized with Vite
 
-**Use your preferred IDE**
+## 🛠 Technology Stack
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- **React 18+** - UI framework
+- **TypeScript** - Type safety
+- **Tailwind CSS** - Styling
+- **Vite** - Build tool
+- **Shadcn UI** - Animations
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🚀 Getting Started
 
-Follow these steps:
+### Prerequisites
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+- Node.js 18+ and npm/yarn
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### Installation
 
-# Step 3: Install the necessary dependencies.
-npm i
+```bash
+# Clone repository
+git clone https://github.com/hnglmiee/Fitly-Landing-Page.git
+cd Fitly-Landing-Page
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Install dependencies
+npm install
+# or
+yarn install
+
+# Start development server
 npm run dev
+# or
+yarn dev
+
+# Open http://localhost:5173
 ```
 
-**Edit a file directly in GitHub**
+## 🔧 Available Scripts
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```bash
+# Development
+npm run dev          # Start dev server
 
-**Use GitHub Codespaces**
+# Build
+npm run build        # Production build
+npm run preview      # Preview production build
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+```
 
-## What technologies are used for this project?
+## 🌐 Deployment
 
-This project is built with:
+### Vercel (Recommended)
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+```bash
+# Install Vercel CLI
+npm i -g vercel
 
-## How can I deploy this project?
+# Deploy
+vercel
+```
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+### Content
 
-## Can I connect a custom domain to my Lovable project?
+Edit component files in `src/components/landing/`:
+- `Hero.tsx` - Main headline and CTA
+- `Features.tsx` - Feature list
+- `About.tsx` - App description
+- `AppScreenshots.tsx` - Screenshots
+- `DownloadCTA.tsx` - Download link
+- `Footer.tsx` - Footer content
 
-Yes, you can!
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## 📧 Contact
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+- **GitHub**: [@hnglmiee](https://github.com/hnglmiee)
+- **Main App Repo**: [Fitly_WorkoutPlanner_Mobile](https://github.com/hnglmiee/Fitly_WorkoutPlanner_Mobile)
